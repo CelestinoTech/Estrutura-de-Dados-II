@@ -1,5 +1,4 @@
 # Busca Ternária
-
 def ternary_search(numeros, esquerda, direita, alvo):
     # Verifica se o limite esquerdo é menor ou igual ao limite direito
     if esquerda <= direita:

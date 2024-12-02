@@ -6,7 +6,6 @@ def merge_sort(lista):
     lista_direita = merge_sort(lista[meio:])  # Recursão para a metade direita
 
     return merge(lista_esquerda, lista_direita)
-
 def merge(lista_esquerda, lista_direita):
     resultado = []
     i = j = 0
@@ -19,7 +18,6 @@ def merge(lista_esquerda, lista_direita):
             j += 1
     resultado.extend(lista_esquerda[i:])
     resultado.extend(lista_direita[j:])
-
     return resultado
 
 lista_original = ["b", "m", "l", "k", "a", "u"]

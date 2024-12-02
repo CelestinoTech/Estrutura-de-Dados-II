@@ -82,3 +82,14 @@ O **Radix Sort** ordena números com base em seus dígitos, da menor posição p
 ### Quando o Ternary Search seria mais eficiente que o Binary Search?
 
 O **Ternary Search**, que divide a lista em três partes, pode ser mais eficiente em listas grandes e com dados distribuídos de forma não uniforme.
+
+## 18. **Ordenação Estável e Instável**
+
+### Identifique quais algoritmos de ordenação da lista são estáveis e explique o que isso significa
+
+A estabilidade de um algoritmo de ordenação significa que, quando dois elementos têm o mesmo valor, a ordem relativa desses elementos na lista original será preservada após a ordenação
+  *Merge Sort
+  *Bubble Sort
+  *Insertion Sort
+  *Bucket Sort
+  *Radix Sort
